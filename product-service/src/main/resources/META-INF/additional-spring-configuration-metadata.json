@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "external.api.url",
+      "type": "java.lang.String",
+      "description": "Description for external.api.url."
+  }
+] }
