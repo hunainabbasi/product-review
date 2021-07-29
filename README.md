@@ -22,7 +22,7 @@ Note: I have tried to get it on dockers but due to lack of time I could'nt (thou
 ## Setup
  - First make sure that mysql service is up and running on : port 3306 and database is there named  review
  - Initially take clone and start all three application:
-    - 1, Eureka Server that runs on port  : 8764 --> http://localhost:8761/
+    - 1, Eureka Server that runs on port  : 8761 --> http://localhost:8761/
     - 2, Review Sevice that runs on port  : 8001
             - While starting review service iniial reviews will be populated as per data.sql file
             - i.e : Product_ID: 'M20324'
