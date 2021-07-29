@@ -33,13 +33,17 @@ Note: I have tried to get it on dockers but due to lack of time I could'nt (thou
 
  - At startup, database seed data is inserted into DB  ```Review``` table.
 
+## Authorization
+- Authorization has been implemented on post call whether you use it for save/update
+   - username: root
+   - pasword:  root
+   - For post call
+- However get calls are not authorize for review-service as well as product-service 
 
-## Swagger Docs
+## Swagger
 Swagger documentation available for both services (after docker startup)
  - Product service : http://localhost:8001/swagger-ui.html
  - Review service  : http://localhost:8002/swagger-ui.html
-
-
 
 ## Improvements to be done
 - Enhanced security using API gateway for microservices communication using JWT and API Tokens;
