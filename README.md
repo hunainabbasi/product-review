@@ -24,11 +24,11 @@ Note: I have tried to get it on dockers but due to lack of time I could'nt (thou
  - Initially take clone and start all three application:
     - 1, Eureka Server that runs on port  : 8764 --> http://localhost:8761/
     - 2, Review Sevice that runs on port  : 8001
-            While starting review service iniial reviews will be populated as per data.sql file
-            i.e : Product_ID: 'M20324'
-                  Product_ID: 'BB5467'
-                  Product_ID: 'AD992'
-        Note:  Before starting review-serview kindly make sure to put username and password db respectively in application.properties file.
+            - While starting review service iniial reviews will be populated as per data.sql file
+            - i.e : Product_ID: 'M20324'
+                  - Product_ID: 'BB5467'
+                  - Product_ID: 'AD992'
+        - Note:  Before starting review-serview kindly make sure to put username and password db respectively in application.properties file.
     - 3, Product Service that runs on port : 8002
 
  - At startup, database seed data is inserted into DB  ```Review``` table.
