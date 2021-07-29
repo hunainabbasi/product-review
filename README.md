@@ -13,7 +13,7 @@ Note: I have tried to get it on dockers but due to lack of time I could'nt (thou
 - JUnit for unit testing
 
 ## Requirements
- - Docker Compose (MongoDB runs in a container)
+ - MySql
  - Java 11 (to run locally in IDE)
  - Unix based OS (Mac OS, Ubuntu, etc)
 
